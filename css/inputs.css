@@ -1,0 +1,60 @@
+.row-padding {
+    padding-bottom: 2em;
+    margin: 2em 0 2em 0;
+    border-bottom: 1px solid #888888;
+}
+
+/* move right */
+.tfr-label {
+    font-weight: normal;
+    position: absolute;
+    top: 6px;
+    left: 28px;
+    opacity: .75;
+    transition: left .25s ease, opacity .25s ease;
+}
+
+.move-right {
+    left: 288px;
+    opacity: 0;
+}
+
+/* move up */
+.mup-label {
+    position: absolute;
+    left: 28px;
+    font-size: 48px;
+    font-weight: normal;
+    top: 16px;
+    transition: top .25s ease, font-size .25s ease, opacity .25s ease;
+}
+
+.mup-expand {
+    top: -10px;
+    font-size: 24px;
+    opacity: .5;
+}
+
+#mup {
+    height: 100px;
+    font-size: 48px;
+    border: none;
+    border-bottom: 2px solid #00A8FF;
+    box-shadow: none;
+}
+
+/* explode */
+.xplod-label {
+    font-weight: normal;
+    position: absolute;
+    top: 6px;
+    left: 28px;
+    opacity: .75;
+    transition: font-size .25s ease, opacity .25s ease, top .25s ease;
+}
+
+.xplod {
+    font-size: 72px;
+    opacity: 0;
+    top: -40px;
+}
